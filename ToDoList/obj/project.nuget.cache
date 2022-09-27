@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pgyfYWjJvS9G8AxZQnivBPCdDii5LaNhBDtP60T/3BjO1K4bus1smkCM+CSaHyHNGIhANMEeOuvMMAZRAj29Iw==",
+  "dgSpecHash": "W2NMVBi9QUCQ8zxv/4r5F1blyHY4+uL6teujYBM3+cTVPGyb4EiBFRahq94kLpO6rLmlZCVHeOTttechjGhLcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tedjo\\onedrive\\desktop\\epicodus\\ToDoList.Solution\\todolist\\ToDoList.csproj",
+  "projectFilePath": "C:\\Users\\tedjo\\onedrive\\desktop\\epicodus\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
