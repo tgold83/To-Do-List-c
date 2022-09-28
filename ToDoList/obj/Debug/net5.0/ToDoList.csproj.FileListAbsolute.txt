@@ -30,5 +30,7 @@ C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\ne
 C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\net5.0\ToDoList.RazorTargetAssemblyInfo.cs
 C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\net5.0\ToDoList.Views.pdb
 C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\net5.0\ToDoList.csproj.CopyComplete
-C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\net5.0\Razor\Views\Items\CreateForm.cshtml.g.cs
 C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\net5.0\Razor\Views\Items\Index.cshtml.g.cs
+C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\net5.0\Razor\Views\Items\DeleteAll.cshtml.g.cs
+C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\net5.0\Razor\Views\Items\New.cshtml.g.cs
+C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\net5.0\Razor\Views\Items\Show.cshtml.g.cs
