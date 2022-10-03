@@ -39,3 +39,4 @@ C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\ne
 C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\net5.0\Razor\Views\Home\FavoritePhotos.cshtml.g.cs
 C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\net5.0\Razor\Views\Shared\Footer.cshtml.g.cs
+C:\Users\tedjo\OneDrive\Desktop\Epicodus\ToDoList.Solution\ToDoList\bin\Debug\net5.0\MySqlConnector.dll

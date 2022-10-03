@@ -98,3 +98,10 @@ C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\todolist.tests\obj\De
 C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\todolist.tests\obj\Debug\net5.0\ref\ToDoList.Tests.dll
 C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\todolist.tests\obj\Debug\net5.0\ToDoList.Tests.pdb
 C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\todolist.tests\obj\Debug\net5.0\ToDoList.Tests.genruntimeconfig.cache
+C:\Users\tedjo\OneDrive\Desktop\Epicodus\ToDoList.Solution\ToDoList.Tests\bin\Debug\net5.0\ToDoList.Views.dll
+C:\Users\tedjo\OneDrive\Desktop\Epicodus\ToDoList.Solution\ToDoList.Tests\bin\Debug\net5.0\ToDoList.Views.pdb
+C:\Users\tedjo\OneDrive\Desktop\Epicodus\ToDoList.Solution\ToDoList.Tests\bin\Debug\net5.0\ToDoList.deps.json
+C:\Users\tedjo\OneDrive\Desktop\Epicodus\ToDoList.Solution\ToDoList.Tests\bin\Debug\net5.0\ToDoList.runtimeconfig.json
+C:\Users\tedjo\OneDrive\Desktop\Epicodus\ToDoList.Solution\ToDoList.Tests\bin\Debug\net5.0\ToDoList.runtimeconfig.dev.json
+C:\Users\tedjo\OneDrive\Desktop\Epicodus\ToDoList.Solution\ToDoList.Tests\bin\Debug\net5.0\ToDoList.exe
+C:\Users\tedjo\OneDrive\Desktop\Epicodus\ToDoList.Solution\ToDoList.Tests\bin\Debug\net5.0\MySqlConnector.dll

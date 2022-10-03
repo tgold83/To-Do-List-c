@@ -9,7 +9,6 @@ namespace ToDoList.Tests
   [TestClass]
   public class ItemTests : IDisposable
   {
-
     public void Dispose()
     {
       Item.ClearAll();
