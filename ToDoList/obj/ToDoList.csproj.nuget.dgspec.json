@@ -38,9 +38,13 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "MySqlConnector": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[0.69.0, )"
+              "version": "[5.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.0-alpha.2, )"
             }
           },
           "imports": [
