@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System;
 
 namespace ToDoList.Controllers
 {
@@ -18,17 +19,18 @@ namespace ToDoList.Controllers
 
     public ActionResult Index()
     {
-      return View(_db.Items.ToList());
+      List<Item> sortedItems = _db.Items.OrderBy(item => item.DueDate).ToList();
+      return View(sortedItems);
     }
 
     public ActionResult Create()
     {
-      ViewBag.CategoryId = new SelectList(_db.Categories, "CategoryId", "Name", false);
+      ViewBag.CategoryId = new SelectList(_db.Categories, "CategoryId", "Name");
       return View();
     }
 
     [HttpPost]
-    public ActionResult Create(Item item, int CategoryId, bool Completed)
+    public ActionResult Create(Item item, int CategoryId, bool Completed, DateTime DueDate)
     {
       _db.Items.Add(item);
       _db.SaveChanges();
