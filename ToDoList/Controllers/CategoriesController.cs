@@ -36,8 +36,11 @@ namespace ToDoList.Controllers
 
     public ActionResult Details(int id)
     {
-      Category thisItem = _db.Categories.FirstOrDefault(category => category.CategoryId == id);
-      return View(thisItem);
+      var thisCategory = _db.Categories
+        .Include(category => category.JoinEntities)
+        .ThenInclude(join => join.Item)
+        .FirstOrDefault(category => category.CategoryId == id);
+      return View(thisCategory);
     }
 
     public ActionResult Edit(int id)

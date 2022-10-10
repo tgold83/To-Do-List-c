@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tedjo\\OneDrive\\Desktop\\epicodus\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {}
+    "C:\\Users\\tedjo\\OneDrive\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tedjo\\OneDrive\\Desktop\\epicodus\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {
+    "C:\\Users\\tedjo\\OneDrive\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tedjo\\OneDrive\\Desktop\\epicodus\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
+        "projectUniqueName": "C:\\Users\\tedjo\\OneDrive\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
         "projectName": "ToDoList",
-        "projectPath": "C:\\Users\\tedjo\\OneDrive\\Desktop\\epicodus\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
+        "projectPath": "C:\\Users\\tedjo\\OneDrive\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
         "packagesPath": "C:\\Users\\tedjo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tedjo\\OneDrive\\Desktop\\epicodus\\ToDoList.Solution\\ToDoList\\obj\\",
+        "outputPath": "C:\\Users\\tedjo\\OneDrive\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tedjo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -39,6 +39,12 @@
           "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0, )"
             },
