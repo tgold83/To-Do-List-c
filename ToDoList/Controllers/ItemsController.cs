@@ -23,12 +23,12 @@ namespace ToDoList.Controllers
 
     public ActionResult Create()
     {
-      ViewBag.CategoryId = new SelectList(_db.Categories, "CategoryId", "Name");
+      ViewBag.CategoryId = new SelectList(_db.Categories, "CategoryId", "Name", false);
       return View();
     }
 
     [HttpPost]
-    public ActionResult Create(Item item, int CategoryId)
+    public ActionResult Create(Item item, int CategoryId, bool Completed)
     {
       _db.Items.Add(item);
       _db.SaveChanges();
