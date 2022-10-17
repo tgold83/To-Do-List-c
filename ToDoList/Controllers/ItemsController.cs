@@ -5,23 +5,32 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using System.Threading.Tasks;
+using System.Security.Claims;
 
 namespace ToDoList.Controllers
 {
+  [Authorize]
   public class ItemsController : Controller
   {
     private readonly ToDoListContext _db;
+    private readonly UserManager<ApplicationUser> _userManager;
 
-    public ItemsController(ToDoListContext db)
+    public ItemsController(UserManager<ApplicationUser> userManager, ToDoListContext db)
     {
+      _userManager = userManager;
       _db = db;
     }
 
-    public ActionResult Index()
-    {
-      List<Item> sortedItems = _db.Items.OrderBy(item => item.DueDate).ToList();
-      return View(sortedItems);
-    }
+    public async Task<ActionResult> Index()
+  {
+    var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+    var currentUser = await _userManager.FindByIdAsync(userId);
+    var userItems = _db.Items.Where(entry => entry.User.Id == currentUser.Id).ToList();
+    return View(userItems);
+  }
 
     public ActionResult Create()
     {
@@ -30,15 +39,18 @@ namespace ToDoList.Controllers
     }
 
     [HttpPost]
-    public ActionResult Create(Item item, int CategoryId, bool Completed, DateTime DueDate)
+    public async Task<ActionResult> Create(Item item, int CategoryId)
     {
+      var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+      var currentUser = await _userManager.FindByIdAsync(userId);
+      item.User = currentUser;
       _db.Items.Add(item);
       _db.SaveChanges();
       if (CategoryId != 0)
       {
         _db.CategoryItem.Add(new CategoryItem() { CategoryId = CategoryId, ItemId = item.ItemId });
-        _db.SaveChanges();
       }
+      _db.SaveChanges();
       return RedirectToAction("Index");
     }
 

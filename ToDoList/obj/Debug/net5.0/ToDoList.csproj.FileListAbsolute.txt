@@ -54,3 +54,7 @@ C:\Users\tedjo\OneDrive\Desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\ne
 C:\Users\tedjo\OneDrive\Desktop\Epicodus\ToDoList.Solution\ToDoList\bin\Debug\net5.0\Humanizer.dll
 C:\Users\tedjo\OneDrive\Desktop\Epicodus\ToDoList.Solution\ToDoList\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\tedjo\OneDrive\Desktop\Epicodus\ToDoList.Solution\ToDoList\obj\Debug\net5.0\Razor\Views\Items\AddCategory.cshtml.g.cs
+C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\net5.0\Razor\Views\Account\Index.cshtml.g.cs
+C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\tedjo\onedrive\desktop\epicodus\ToDoList.Solution\ToDoList\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
